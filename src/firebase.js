@@ -1,3 +1,4 @@
+// Importaciones de firebase y de recursos de sus servicios
 import { initializeApp } from "firebase/app";
 import {
   GoogleAuthProvider,
@@ -17,7 +18,7 @@ import {
   addDoc,
 } from "firebase/firestore";
 
-// Your web app's Firebase configuration
+// Configuración de proyecto de firebase
 const firebaseConfig = {
     apiKey: "AIzaSyAXJ3a2T4ZplSeJWD4lZqyUKWp-K7Xk-ko",
     authDomain: "practica-firebase-01.firebaseapp.com",
